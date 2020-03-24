@@ -1,0 +1,182 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Example Company 2",
+            "Type": "Channel Partner / Reseller",
+            "BillingStreet": "BStreet 2.",
+            "BillingCity": "Budapest",
+            "BillingState": "Budapest",
+            "BillingPostalCode": "1111",
+            "BillingCountry": "Hungary",
+            "BillingAddress": {
+                "city": "Budapest",
+                "country": "Hungary",
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "1111",
+                "state": "Budapest",
+                "street": "BStreet 2."
+            },
+            "Phone": "70/5579",
+            "Fax": "70/5579",
+            "AccountNumber": "2",
+            "Website": "ww2.example.co2",
+            "Sic": "221",
+            "Industry": "Not For Profit",
+            "AnnualRevenue": 11,
+            "NumberOfEmployees": 30,
+            "Ownership": "Private",
+            "Rating": "Hot",
+            "CleanStatus": "Pending",
+            "Contacts": {
+                "records": []
+            },
+            "Developers__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Example Company 1",
+            "Type": "Customer - Direct",
+            "BillingStreet": "Rakoczi St. 1-3.",
+            "BillingCity": "Budapest",
+            "BillingState": "Budapest",
+            "BillingPostalCode": "1138",
+            "BillingCountry": "Hungary",
+            "BillingAddress": {
+                "city": "Budapest",
+                "country": "Hungary",
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "1138",
+                "state": "Budapest",
+                "street": "Rakoczi St. 1-3."
+            },
+            "Phone": "30/5478",
+            "Fax": "30/5478",
+            "AccountNumber": "1",
+            "Website": "www.example.com",
+            "Sic": "220",
+            "Industry": "Biotechnology",
+            "AnnualRevenue": 10,
+            "NumberOfEmployees": 20,
+            "Rating": "Cold",
+            "CleanStatus": "Pending",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "LastName": "Anande",
+                        "FirstName": "Contact",
+                        "Salutation": "Mrs.",
+                        "Name": "Contact Anande",
+                        "Phone": "0234",
+                        "Email": "email@my.mail",
+                        "Title": "Sales",
+                        "IsEmailBounced": false,
+                        "CleanStatus": "Pending"
+                    }
+                ]
+            },
+            "Developers__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Developer__c",
+                            "referenceId": "Developer__cRef1"
+                        },
+                        "Name": "Ms. Architect",
+                        "Skill_set__c": "Java",
+                        "Level__c": "4"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Developer__c",
+                            "referenceId": "Developer__cRef2"
+                        },
+                        "Name": "Mr. No Skill",
+                        "Level__c": "1"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Developer__c",
+                            "referenceId": "Developer__cRef3"
+                        },
+                        "Name": "Mr. C Dev",
+                        "Skill_set__c": "C",
+                        "Level__c": "2"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Example Company 2_2",
+            "Type": "Installation Partner",
+            "BillingStreet": "CStreet",
+            "BillingCity": "Bekescsaba",
+            "BillingState": "Bekes",
+            "BillingPostalCode": "5600",
+            "BillingCountry": "Hungary",
+            "BillingAddress": {
+                "city": "Bekescsaba",
+                "country": "Hungary",
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "5600",
+                "state": "Bekes",
+                "street": "CStreet"
+            },
+            "Phone": "20/4762",
+            "Fax": "20/4762",
+            "AccountNumber": "22",
+            "Website": "www.subexample.com",
+            "Sic": "222",
+            "Industry": "Consulting",
+            "AnnualRevenue": 4,
+            "NumberOfEmployees": 3,
+            "Rating": "Cold",
+            "CleanStatus": "Pending",
+            "Contacts": {
+                "records": []
+            },
+            "Developers__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Talentera",
+            "Type": "Other",
+            "Industry": "Education",
+            "Rating": "Warm",
+            "CleanStatus": "Pending",
+            "Contacts": {
+                "records": []
+            },
+            "Developers__r": {
+                "records": []
+            }
+        }
+    ]
+}

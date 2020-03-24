@@ -1,0 +1,18 @@
+sfdx force:data:soql:query -q "SELECT Id,OwnerId,IsDeleted,Name,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,SystemModstamp,LastViewedDate,LastReferencedDate,Developer__c,Type__c,Used_Since__c,Expiration__c,Expired__c FROM Equipment__c" -u BaseScratch -r csv > equipments.csv
+
+Id
+OwnerId
+IsDeleted
+Name
+CreatedDate
+CreatedById
+LastModifiedDate
+LastModifiedById
+SystemModstamp
+LastViewedDate
+LastReferencedDate
+Developer__c
+Type__c
+Used_Since__c
+Expiration__c
+Expired__c

@@ -1,0 +1,85 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Developer__c",
+                "referenceId": "Developer__cRef1"
+            },
+            "Name": "Mr. No Skill",
+            "Level__c": "1",
+            "Equipments__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Developer__c",
+                "referenceId": "Developer__cRef2"
+            },
+            "Name": "Mr. C Dev",
+            "Skill_set__c": "C",
+            "Level__c": "2",
+            "Equipments__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Equipment__c",
+                            "referenceId": "Equipment__cRef1"
+                        },
+                        "Name": "Mr. C Dev_Mouse",
+                        "Type__c": "Mouse",
+                        "Used_Since__c": "2020-03-13",
+                        "Expiration__c": "2020-09-12",
+                        "Expired__c": false
+                    },
+                    {
+                        "attributes": {
+                            "type": "Equipment__c",
+                            "referenceId": "Equipment__cRef2"
+                        },
+                        "Name": "Mr. C Dev_Laptop",
+                        "Type__c": "Laptop",
+                        "Used_Since__c": "2020-03-13",
+                        "Expiration__c": "2020-09-12",
+                        "Expired__c": false
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Developer__c",
+                "referenceId": "Developer__cRef3"
+            },
+            "Name": "Ms. Architect",
+            "Skill_set__c": "Java",
+            "Level__c": "4",
+            "Equipments__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Equipment__c",
+                            "referenceId": "Equipment__cRef3"
+                        },
+                        "Name": "Ms. Architect_Laptop",
+                        "Type__c": "Laptop",
+                        "Used_Since__c": "2020-03-13",
+                        "Expiration__c": "2020-09-12",
+                        "Expired__c": false
+                    },
+                    {
+                        "attributes": {
+                            "type": "Equipment__c",
+                            "referenceId": "Equipment__cRef4"
+                        },
+                        "Name": "Ms. Architect_Monitor1",
+                        "Type__c": "Monitor",
+                        "Used_Since__c": "2020-03-13",
+                        "Expiration__c": "2020-09-12",
+                        "Expired__c": false
+                    }
+                ]
+            }
+        }
+    ]
+}

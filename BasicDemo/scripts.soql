@@ -1,0 +1,24 @@
+Example SOQL queries:
+SELECT Id, Name, (SELECT Id, Name, Level__c FROM Developers__r) FROM Account
+SELECT Id, Name, Phone, Email, Account.Name FROM Contact
+SELECT Id, Name, Level__c, Skill_set__c, Account__r.Name, (SELECT Name, Type__c FROM Equipments__r WHERE Expired__c = false) FROM Developer__c
+SELECT Id, Name, Developer__c, Type__c FROM Equipment__c WHERE Expired__c = true
+SELECT Id, Name, Developer__c, Type__c FROM Equipment__c WHERE Expired__c = false
+
+Example scripts:
+------------------------------------
+Disposing expired Equipments
+------------------------------------
+List<Equipment__c> expiredEqList = [SELECT Id, Name, Developer__c, Type__c FROM Equipment__c WHERE Expired__c = true AND Disposed__c = false];
+List<Equipment__c> newEqList = new List<Equipment__c>();
+for(Equipment__c eq : expiredEqList){
+    Equipment__c newEq = new Equipment__c(Name = eq.Name, Developer__c = eq.Developer__c, 
+                                          Type__c = eq.Type__c, Used_Since__c = Date.today());
+    eq.Disposed__c = true;
+    newEqList.add(newEq);
+}
+System.debug('CF - expiredEqList: ' + expiredEqList);
+System.debug('CF - newEqList: ' + newEqList);
+
+update expiredEqList;
+insert newEqList;

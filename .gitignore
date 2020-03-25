@@ -6,6 +6,24 @@
 .sfdx/
 .localdevserver/
 
+# Special folders
+.vscode/
+scripts/
+
+# Local files
+.eslintignore
+.prettierignore
+.prettierrc
+AccountFields.txt
+accounts.csv
+accountsToUpload.csv
+ContactFields.txt
+contacts.csv
+DeveloperFields.txt
+developers.csv
+EquipmentFields.txt
+equipments.csv
+
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 

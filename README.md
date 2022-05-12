@@ -1,5 +1,7 @@
 # BasicDemo
-Contain basic functionalities to demonstrate the Salesforce platform
+Contains basic functionalities to demonstrate the Salesforce platform
+
+Use the ppt file for your reference before you start.
 
 Steps to use the package in a developer org.
 1. Sign up for a developer org: https://developer.salesforce.com/signup
